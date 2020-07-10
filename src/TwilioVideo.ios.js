@@ -163,7 +163,7 @@ export default class extends Component {
     this.publishLocalVideo = this.publishLocalVideo.bind(this)
   }
 
-  componentWillMount () {
+  UNSAFE_componentWillMount () {
     this._registerEvents()
     this._startLocalAudio()
   }
